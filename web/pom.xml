@@ -10,8 +10,8 @@
             <name>web</name>
             <parent>
                 <groupId>com.fm.mvnbook</groupId>
-                <artifactId>assembly</artifactId>
+                <artifactId>service</artifactId>
                 <version>1.0-SNAPSHOT</version>
-                <relativePath>../assembly/pom.xml</version>
+                <relativePath>../service/pom.xml</version>
             </parent>
 </project>

@@ -5,8 +5,13 @@
             http://maven.apache.org/maven-v4_0_0.xsd">
             <modelVersion>4.0.0</modelVersion>
             <groupId>com.fm.mvnbook</groupId>
-            <artifactId>fcade</artifactId>
+            <artifactId>mavenbuild</artifactId>
             <version>1.0-SNAPSHOT</version>
-            <name>facade</name>
-            <packaging>war</packaging>
+            <name>mavenbuild</name>
+            <packaging>pom</packaging>
+            <modules>
+                <module>test</module>
+                <module>assembly</module>
+            </modules>
+           
 </project>
